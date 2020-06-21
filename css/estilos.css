@@ -3,9 +3,14 @@
   padding: 0px;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/*------------------------------ Header ---------------------------------------*/
+
 .header {
   height: 70px;
-  border: 1px red solid;
+  /* border: 1px red solid; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,9 +19,10 @@
 .header-image {
   width: 100px;
   height: 17px;
+  margin: 0px 0px 0px 30px;
 }
 
-.form-button {
+.header-button {
   color: #fd53c0;
   border: 1px solid;
   border-radius: 10px;
@@ -24,5 +30,83 @@
   height: 20px;
   width: 80px;
   font-size: 10px;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 30px 0px 0px;
+}
+
+/*------------------------------ Hero ---------------------------------------*/
+
+.hero {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+}
+
+.hero-title {
+  margin: 50px 0px 0px 0px;
+  text-transform: capitalize;
+  font-weight: 600px;
+}
+
+.hero-description {
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form-button {
+  color: white;
+  border: 1px solid #fd53c0;
+  border-radius: 20px;
+  background: #fd53c0;
+  width: 190px;
+  height: 35px;
+}
+
+.hero-image {
+  width: 500px;
+  margin: 50px 0px 0px 0px;
+}
+
+.hero-numbers {
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  height: 700px;
+}
+
+.hero-numbers-title {
+  font-size: 40px;
+}
+
+.hero-numbers-description {
+  color: #7f9395;
+  font-size: 12px;
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  font-weight: 400px;
+}
+
+.communities {
+  height: 110px;
+  background-image: url("../images/icon-communities.svg");
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: 20px 20px;
+}
+
+.messages {
+  height: 110px;
+  background-image: url("../images/icon-messages.svg");
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: 20px 20px;
 }
