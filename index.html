@@ -22,15 +22,6 @@
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="header">
@@ -133,13 +124,77 @@
     </section>
 
     <!-- ----------------------- Footer ------------------------------------>
-    <footer>
+    <footer class="footer">
+      <div class="footerWrapper">
+        <div class="footer-companyWrapper">
+          <figure class="footer-compay-imgWrapper">
+            <img
+              src="./images/logo.svg"
+              alt="Huddle Logo"
+              class="footer-company-img"
+            />
+          </figure>
+          <p class="footer-company-description">
+            Lorem ipsum dolor sit amet consectetur<br />
+            adipisicing elit. Eveniet quaerat ab maiores <br />repellendus
+            consequuntur esse.
+          </p>
+          <p class="footer-company-phone">Phone: +1-543-123-4567</p>
+          <p class="footer-company-email">example@huddle.com</p>
+        </div>
+        <div class="newsletter">
+          <h2 class="newsletter-title">Newsletter</h2>
+          <p class="newsletter-description">
+            To recipe tips on how to grow your community,<br />sign up to our
+            weekly newsletter. We´ll never send<br />you spam or pass on your
+            email address.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" />
+            <button class="newsletter-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-social">
+        <figure class="socialWrapper">
+          <img
+            src="./images/icon-facebook.svg"
+            alt="Facebook icon"
+            class="social-img"
+          />
+        </figure>
+        <figure class="socialWrapper">
+          <img
+            src="./images/icon-instagram.svg"
+            alt="Instagram icon"
+            class="social-img"
+            width="47px;"
+          />
+        </figure>
+        <figure class="socialWrapper">
+          <img
+            src="./images/icon-twitter.svg"
+            alt="Twitter icon"
+            class="social-img"
+          />
+        </figure>
+      </div>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/joeldm011" target="_blank">Joel💜</a>.
+      </p>
+    </footer>
+
+    <!-- <footer>
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Joel</a>.
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>

@@ -139,10 +139,105 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 80px 0px;
 }
 
 .section2-title {
   margin: 0px 0px 20px 0px;
   text-transform: capitalize;
+}
+
+/*------------------------------ Footer ---------------------------------------*/
+.footer {
+  background: hsl(192, 100%, 9%);
+  color: white;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px 0px 80px;
+}
+
+.footer-company-img {
+  width: 190px;
+  filter: invert(1);
+}
+
+.footer-company-description {
+  margin: 15px 0px 15px 0px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.footer-company-phone {
+  background-image: url("../images/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position-y: 5px;
+  padding: 0px 27px;
+
+  margin: 0px 0px 10px 0px;
+}
+
+.footer-company-email {
+  background-image: url("../images/icon-email.svg");
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position-y: 7px;
+  padding: 0px 27px;
+}
+
+.footer-social {
+  display: flex;
+  margin: 40px 0px 0px 78px;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.socialWrapper {
+  filter: invert(1);
+}
+
+.social-img {
+  width: 25px;
+}
+
+.newsletter-title {
+  margin: 0px 0px 15px 0px;
+}
+
+.newsletter-description {
+  margin: 0px 0px 25px 0px;
+  font-size: 13px;
+}
+
+.newsletter-input {
+  width: 250px;
+  height: 30px;
+  border-style: none;
+  border-radius: 2px;
+}
+
+.newsletter-button {
+  color: white;
+  background: #fd53c0;
+  width: 100px;
+  height: 32px;
+  border-style: none;
+  margin: 0px 0px 0px 20px;
+}
+
+.attribution {
+  color: white;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: white;
 }
