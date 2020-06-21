@@ -110,3 +110,28 @@ body {
   justify-content: center;
   background-size: 20px 20px;
 }
+
+/*------------------------------ Content1 ---------------------------------------*/
+.content1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
+.content1Wrapper {
+  /* margin: 0px 0px 0px 30px; */
+}
+
+.content1-title {
+  font-size: 30px;
+  margin: 0pc 0px 10px 0px;
+}
+
+.content1-description {
+  font-size: 12px;
+}
+
+.content1-image {
+  width: 400px;
+}
