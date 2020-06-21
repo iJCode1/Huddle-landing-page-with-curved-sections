@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 70px;
+  border: 1px red solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-image {
+  width: 100px;
+  height: 17px;
+}
+
+.form-button {
+  color: #fd53c0;
+  border: 1px solid;
+  border-radius: 10px;
+  background: white;
+  height: 20px;
+  width: 80px;
+  font-size: 10px;
+  margin: 0px 20px 0px 0px;
+}
