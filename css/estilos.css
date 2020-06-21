@@ -112,26 +112,27 @@ body {
 }
 
 /*------------------------------ Content1 ---------------------------------------*/
-.content1 {
+.content {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 400px;
+  margin: 0px 0px 30px 0px;
 }
 
 .content1Wrapper {
   /* margin: 0px 0px 0px 30px; */
 }
 
-.content1-title {
+.content-title {
   font-size: 30px;
   margin: 0pc 0px 10px 0px;
 }
 
-.content1-description {
+.content-description {
   font-size: 12px;
 }
 
-.content1-image {
+.content-image {
   width: 400px;
 }
